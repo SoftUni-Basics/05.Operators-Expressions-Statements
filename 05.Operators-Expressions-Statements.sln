@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GravitationOnTheMoon", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DivideBy7And5", "03.DivideBy7And5\03.DivideBy7And5.csproj", "{CCBA9FEF-DEAD-46F2-A6CE-EF389599A7B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Rectangles", "04.Rectangles\04.Rectangles.csproj", "{374A977F-7C91-4144-B6DB-1B5D4BBAB441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ThirdDigitIs7", "05.ThirdDigitIs7\05.ThirdDigitIs7.csproj", "{A646901D-7FBE-42E3-9D4D-8808A424E9E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{CCBA9FEF-DEAD-46F2-A6CE-EF389599A7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCBA9FEF-DEAD-46F2-A6CE-EF389599A7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCBA9FEF-DEAD-46F2-A6CE-EF389599A7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374A977F-7C91-4144-B6DB-1B5D4BBAB441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374A977F-7C91-4144-B6DB-1B5D4BBAB441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374A977F-7C91-4144-B6DB-1B5D4BBAB441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374A977F-7C91-4144-B6DB-1B5D4BBAB441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A646901D-7FBE-42E3-9D4D-8808A424E9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A646901D-7FBE-42E3-9D4D-8808A424E9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A646901D-7FBE-42E3-9D4D-8808A424E9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A646901D-7FBE-42E3-9D4D-8808A424E9E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
