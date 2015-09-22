@@ -15,6 +15,9 @@ class FourDigitNumber
     {
         string input;
         int value = 0;
+
+        // Write a program that takes as input a four-digit number...
+        // The number has always exactly 4 digits and cannot start with 0.
         while (true)
         {
             Console.Write("Enter value: ");
