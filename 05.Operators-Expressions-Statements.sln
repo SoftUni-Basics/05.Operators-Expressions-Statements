@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.CheckABitAtGivenPosition
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.ModifyABitAtGivenPosition", "14.ModifyABitAtGivenPosition\14.ModifyABitAtGivenPosition.csproj", "{BAE614D2-0E22-4DBA-B9BB-B283A70BCC13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.BitsExchange", "15.BitsExchange\15.BitsExchange.csproj", "{2B21AC1C-6760-4163-B18D-D81EBD8145EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{BAE614D2-0E22-4DBA-B9BB-B283A70BCC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAE614D2-0E22-4DBA-B9BB-B283A70BCC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAE614D2-0E22-4DBA-B9BB-B283A70BCC13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B21AC1C-6760-4163-B18D-D81EBD8145EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B21AC1C-6760-4163-B18D-D81EBD8145EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B21AC1C-6760-4163-B18D-D81EBD8145EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B21AC1C-6760-4163-B18D-D81EBD8145EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
