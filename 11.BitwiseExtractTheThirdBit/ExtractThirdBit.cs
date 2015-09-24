@@ -20,7 +20,7 @@ class ExtractThirdBit
 
     static void Main()
     {
-        Console.Write("Enter a unsigned integer: ");
+        Console.Write("{0,-28}", "Enter a unsigned integer:");
         int input = int.Parse(Console.ReadLine());
         int bitPosition = 3;
         int mask = 1;

@@ -20,9 +20,9 @@ class CheckBitPosition
 
     static void Main()
     {
-        Console.Write("Enter an unsigned integer: ");
+        Console.Write("{0,-28}", "Enter an unsigned integer:");
         int input = int.Parse(Console.ReadLine());
-        Console.Write("Enter a Bit position: ");
+        Console.Write("{0,-28}", "Enter a Bit position:");
         int bitPosition = int.Parse(Console.ReadLine());
         int mask = 1;
 
@@ -30,8 +30,8 @@ class CheckBitPosition
 
         bool bitChecker = (result == 1) ? true : false;
 
-        Console.WriteLine("{0,-25}{1}", "The value to binary", BinFourColumns(input));
-        Console.WriteLine("{0,-25}{1}", "Binary mask position", BinFourColumns(1 << bitPosition));
-        Console.WriteLine("Result: {0,22}", bitChecker);
+        Console.WriteLine("{0,-25}{1}", "Number to binary", BinFourColumns(input));
+        Console.WriteLine("{0,-25}{1}", "Binary mask", BinFourColumns(1 << bitPosition));
+        Console.WriteLine("{0,-25}{1}", "Bit @ p == 1", bitChecker);
     }
 }
