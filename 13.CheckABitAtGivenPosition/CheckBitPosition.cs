@@ -6,7 +6,7 @@ using System.Text;
 
 class CheckBitPosition
 {
-    static string BinFourColumns(int value)
+    static string FourBitsColumns(int value)
     {
         StringBuilder strBuild = new StringBuilder();
         string binary = Convert.ToString(value, 2).PadLeft(16, '0');
@@ -30,8 +30,8 @@ class CheckBitPosition
 
         bool bitChecker = (result == 1) ? true : false;
 
-        Console.WriteLine("{0,-25}{1}", "Number to binary", BinFourColumns(input));
-        Console.WriteLine("{0,-25}{1}", "Binary mask", BinFourColumns(1 << bitPosition));
+        Console.WriteLine("{0,-25}{1}", "Number to binary", FourBitsColumns(input));
+        Console.WriteLine("{0,-25}{1}", "Binary mask", FourBitsColumns(1 << bitPosition));
         Console.WriteLine("{0,-25}{1}", "Bit @ p == 1", bitChecker);
     }
 }
