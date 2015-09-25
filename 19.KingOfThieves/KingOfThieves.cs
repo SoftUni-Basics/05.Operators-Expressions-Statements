@@ -17,6 +17,5 @@ class KingOfThieves
         {
             Console.WriteLine("{0}{1}{0}", new string('-', i), new string(symbol, (input - (i * 2))));
         }
-
     }
 }
