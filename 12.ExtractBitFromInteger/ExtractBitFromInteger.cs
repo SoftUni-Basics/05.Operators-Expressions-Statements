@@ -6,7 +6,7 @@ using System.Text;
 
 class ExtractBitFromInteger
 {
-    static string BinFourColumns(int value)
+    static string FourBitsColumns(int value)
     {
         StringBuilder strBuild = new StringBuilder();
         string binary = Convert.ToString(value, 2).PadLeft(16, '0');
@@ -30,8 +30,8 @@ class ExtractBitFromInteger
 
         int bitChecker = (result == 1) ? 1 : 0;
 
-        Console.WriteLine("{0,-25}{1}", "The value to binary", BinFourColumns(input));
-        Console.WriteLine("{0,-25}{1}", "Binary mask position", BinFourColumns(1 << bitPosition));
+        Console.WriteLine("{0,-25}{1}", "The value to binary", FourBitsColumns(input));
+        Console.WriteLine("{0,-25}{1}", "Binary mask position", FourBitsColumns(1 << bitPosition));
         Console.WriteLine("{0,-28}{1}", "Result:", bitChecker);
     }
 }
