@@ -6,7 +6,7 @@ using System.Text;
 
 class BitsExchange
 {
-    static string BinFourColumns(uint value)
+    static string ByteColumns(uint value)
     {
         StringBuilder strBuild = new StringBuilder();
         string binary = Convert.ToString(value, 2).PadLeft(32, '0');
@@ -21,25 +21,16 @@ class BitsExchange
     {
         Console.WriteLine("{0,-28}", "Enter an unsigned integer:");
         uint number = uint.Parse(Console.ReadLine());
-        
-        uint mask = 117440568;
-        uint bitsForExchange = mask & number;
-        uint result = number & (~ mask);
 
-        result |= (bitsForExchange >> 21) | (bitsForExchange << 21);
+        uint mask = 117440568;                  // bin mask --> 00000111 00000000 00000000 00111000
+        uint bitsForExchange = mask & number;   // take all bits
+        uint result = number & (~ mask);        // remake 3,4,5 and 24,25,26 pos to zeros
 
+        result |= (bitsForExchange >> 21) | (bitsForExchange << 21);  
+        /*moving big bits to low position, low bits just disappear.. it's same for low to high position; example: (1 >> 1) */
 
-        Console.WriteLine("{0,-25}{1}", "Number:", BinFourColumns(number));
-        Console.WriteLine("{0,-25}{1}", "Binary Result:", BinFourColumns(result));
+        Console.WriteLine("{0,-25}{1}", "Number:", ByteColumns(number));
+        Console.WriteLine("{0,-25}{1}", "Binary Result:", ByteColumns(result));
         Console.WriteLine("{0,-25}{1}", "Decimal Result:", result);
     }
 }
-
-/*
-        1140867093	        1107312677
-        255406592	        137966136
-        4294901775	        4194238527
-        5351	            67114183
-        2369124121	        2335569705
-        
- */
