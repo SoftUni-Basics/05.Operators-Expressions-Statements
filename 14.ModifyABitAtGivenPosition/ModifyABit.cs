@@ -6,7 +6,7 @@ using System.Text;
 
 class ModifyABit
 {
-    static string BinFourColumns(int value)
+    static string FourBitsColumns(int value)
     {
         StringBuilder strBuild = new StringBuilder();
         string binary = Convert.ToString(value, 2).PadLeft(32, '0');
@@ -48,10 +48,9 @@ class ModifyABit
             result = number;
         }
 
-        Console.WriteLine("{0,-25}{1}", "The value to binary", BinFourColumns(number));
-        Console.WriteLine("{0,-25}{1}", "Binary mask position", BinFourColumns(mask));
-        //Console.WriteLine("{0,-25}{1}", "Bit Value", bitValue);
-        Console.WriteLine("{0,-25}{1}", "Binary result: ", BinFourColumns(result));
+        Console.WriteLine("{0,-25}{1}", "The value to binary", FourBitsColumns(number));
+        Console.WriteLine("{0,-25}{1}", "Binary mask position", FourBitsColumns(mask));
+        Console.WriteLine("{0,-25}{1}", "Binary result: ", FourBitsColumns(result));
         Console.WriteLine("{0,-23}{1}", "Result:", result);
     }
 }
