@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.KingOfThieves", "19.King
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.DecryptTheMessages", "20.DecryptTheMessages\20.DecryptTheMessages.csproj", "{EC18B3CA-5B65-4776-A6D9-4401B1A9099F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.BitsAtCrossroads", "21.BitsAtCrossroads\21.BitsAtCrossroads.csproj", "{882A693C-C9B7-452E-B93A-7884BDC438FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{EC18B3CA-5B65-4776-A6D9-4401B1A9099F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC18B3CA-5B65-4776-A6D9-4401B1A9099F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC18B3CA-5B65-4776-A6D9-4401B1A9099F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882A693C-C9B7-452E-B93A-7884BDC438FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882A693C-C9B7-452E-B93A-7884BDC438FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882A693C-C9B7-452E-B93A-7884BDC438FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882A693C-C9B7-452E-B93A-7884BDC438FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
